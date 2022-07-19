@@ -9,4 +9,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.checked{
+    background-color: #289228;
+    color: white;
+}
+
+/*------------------------------------------
+                 Header style
+-------------------------------------------- */
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-section{
+    width: 90%;
+    height: 87.5vh;
+    margin: 50px 5%;
+    background: #161616;
+    border-radius: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 106px;
+    padding-right: 79px;
+}
+.header-details{
+    padding-top: 111px;
+    padding-bottom: 111px;
+}
+.header-title{
+    width: 531px;
+    height: 240px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.header-info{
+    font-weight: 400;
+    width: 506px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    width: 103px;
+    height: 23px;
+    transition: background-color 0.5s ease-out;
+}
+.btn:hover{
+    background-color: #DD0000;
+}
+.btn:hover .fa-angle-right{
+    margin-left: 100px;
+}
+.btn .fa-angle-right{
+    margin-left: 10px;
+    transition: margin-left 2s ease-out;
+}
+.header-image{
+
+    margin-top: 100px;
+}
+.header-image img{
+    width: 450px;
+    height: auto;
+    margin: 0;
+}
+
