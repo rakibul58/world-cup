@@ -13,11 +13,6 @@
 
 }
 
-.checked{
-    background-color: #289228;
-    color: white;
-}
-
 /*------------------------------------------
                  Header style
 -------------------------------------------- */
@@ -26,9 +21,9 @@ header{
     justify-content: center;
 }
 .header-section{
-    width: 90%;
+    width: 96%;
     height: 87.5vh;
-    margin: 50px 5%;
+    margin: 50px 2%;
     background: #161616;
     border-radius: 30px;
     color: aliceblue;
@@ -70,9 +65,11 @@ header{
     height: 23px;
     transition: background-color 0.5s ease-out;
 }
+/* for transition of button color */
 .btn:hover{
     background-color: #DD0000;
 }
+/* for transition on icon */
 .btn:hover .fa-angle-right{
     margin-left: 100px;
 }
@@ -90,3 +87,102 @@ header{
     margin: 0;
 }
 
+/*------------------------------------------
+                 Main style
+-------------------------------------------- */
+main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.mid-section{
+    width: 98%;
+    /* border: 1px solid; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 130px;
+}
+.nav-section{
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    row-gap: 30px;
+    padding: 30px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 17px;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+}
+.article{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 313px;
+}
+.article-details{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.thumnail{
+    margin-bottom: 20px;
+}
+.transfer-btn{
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    padding: 4px 16px;
+}
+.blog-title{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+.blog-details{
+    display: flex;
+    align-items: center;
+}
+.blog-details p{
+    margin-left: 10px;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+}
+/*-------------------For show which button is checked--------------*/
+.checked{
+    background-color: #289228;
+    color: white;
+}
+/* ---------------------------------------------------------------- */
