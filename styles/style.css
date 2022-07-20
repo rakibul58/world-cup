@@ -218,6 +218,9 @@ main{
     column-gap: 10px;
     margin-bottom: 50px;
 }
+.general-links span{
+    display: none;
+}
 .general-links a{
     text-decoration: none;
     font-weight: 500;
@@ -339,11 +342,14 @@ main{
             border: 2px solid #E8E8E8;
             color: #161616;
             border-radius: 10px;
-            width: 100%;
+            width: 75%;
             height: 100%;
             margin: 0 auto;
             text-align: center;
             padding-top: 17px;
+        }
+        .big-btn{
+            width: 100%;
         }
         .articles{
             /* border: 1px solid; */
@@ -538,11 +544,16 @@ main{
         width: 80%;
     }
     .general-links{
-        width: 65%;
+        width: 70%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        row-gap: 30px;
+        grid-template-columns: repeat(4 , auto);
+        grid-gap: 20px 10px;
         margin-bottom: 50px;
+    }
+    .general-links span{
+        display: block;
+        color: #161616;
+        margin-left: 40px;
     }
     .general-links a{
         text-decoration: none;
