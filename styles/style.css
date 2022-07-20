@@ -180,6 +180,57 @@ main{
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
 }
+
+/*-------------------------------------------------------------------
+                             footer style 
+---------------------------------------------------------------------*/
+.footer-section{
+    height: 444px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    width: 95px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.footer-section hr{
+    width: 90%;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+.general-links{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+.general-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    text-align: center;
+    
+}
+.social-links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #B9B9B9;
+    padding: 0 10px;
+}
 /*-------------------For show which button is checked--------------*/
 .checked{
     background-color: #289228;
