@@ -183,7 +183,48 @@ main{
     line-height: 26px;
     color: rgba(22, 22, 22, 0.7);
 }
+/*-----------------------------------------------
+             Matches page styles 
+--------------------------------------------------*/
 
+    .matches{
+        /* border: 2px solid; */
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .match{
+        border: 1px solid #F4F4F4;
+        border-radius: 5px;
+        padding: 40px 15px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        text-align: center;
+    }
+    .opponents{
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .match-info h2{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #161616;
+        margin-top: 20px;
+        margin-bottom: 10px;
+       
+    }
+    .match-info p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4D4D4D;
+    }
+
+/* ----------------------------------------------- */
 /*-------------------------------------------------------------------
                              footer style 
 ---------------------------------------------------------------------*/
@@ -409,6 +450,27 @@ main{
             color: #B9B9B9;
             padding: 0 10px;
         }
+        /* -------------------------------------------------------- */
+
+        /*-----------------------------------------------
+             Matches page styles 
+        --------------------------------------------------*/
+
+            .matches{
+                /* border: 2px solid; */
+                grid-column: 0;
+                grid-row-gap: 12px;
+                grid-template-columns: repeat(1,1fr);
+            }
+            .match{
+                padding: 40px 25px;
+            }
+            .opponents img{
+                padding: 0 10px;
+            }
+
+        /* ----------------------------------------------- */
+
         }
 /* ----------------------------------------------------------------- */
 /* -----------------------------------------------------------------
@@ -572,6 +634,25 @@ main{
         color: #B9B9B9;
         padding: 0 10px;
     }
+
+    /*-----------------------------------------------
+             Matches page styles 
+        --------------------------------------------------*/
+
+        .matches{
+            /* border: 2px solid; */
+            grid-column: 0;
+            grid-row-gap: 12px;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .match{
+            padding: 40px 25px;
+        }
+        .opponents img{
+            padding: 0 10px;
+        }
+
+    /* ----------------------------------------------- */
     
 }
 /* ----------------------------------------------------------------- */
